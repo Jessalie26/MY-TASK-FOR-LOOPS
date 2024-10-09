@@ -1,0 +1,9 @@
+My_list = ["jessalie","abby","venz"]
+user = input("Pag pili unsa  ganahan ba para ma alphabitical imong list (sort,reverse)? ")
+
+if user == "sort":
+    My_list.sort()
+    print(My_list)
+elif user == "reverse":
+    My_list.reverse()
+    print(My_list)

@@ -1,0 +1,9 @@
+My_list= [5,10,15,20,25,1,2,3,4,5]
+user = input("You want to clear the list or not? ")
+
+if user == "yes":
+    My_list.clear()
+    print("My list has been cleared")
+else:
+    print("akong listahan kay wala na bag-o")
+    

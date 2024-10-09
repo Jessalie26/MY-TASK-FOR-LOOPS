@@ -1,0 +1,4 @@
+numbers = [5,10,15,20,25]
+user = int(input("Enter the number that you want to add: "))
+numbers.append(21)
+print(numbers)

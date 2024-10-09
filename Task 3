@@ -1,0 +1,9 @@
+names = ["ding","dong","Lie"]
+user = input("choose the way how to remove (index or name)?: ")
+if user == "index":
+    index = input("2: ")
+    names.pop(2)
+elif user == "name":
+    names = input("dong: ")
+else:
+    print("haguy wala sa choices imong gipili")
